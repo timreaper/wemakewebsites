@@ -1,0 +1,22 @@
+{
+  "dist": {
+	"css": {
+	  "rootpath": "/css"
+	},
+	"rootpath": "."
+  },
+  "src": {
+	"rootpath": ".",
+	"sass": {
+	  "rootpath": "/sass",
+	  "app": {
+		"file": "/main_app.scss",
+		"rootpath": "/app"
+	  },
+	  "libraries": {
+		"file": "/main_libraries.scss",
+		"rootpath": "/libraries"
+	  }
+	}
+  }
+}

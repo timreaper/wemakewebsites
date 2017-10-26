@@ -1,0 +1,15 @@
+@import '../../libraries/bootstrap/functions';
+@import '../../libraries/bootstrap/variables';
+@import '../../libraries/bootstrap/mixins';
+
+@media screen and (max-width: map-get($grid-breakpoints, md)) {
+  .desktop {
+	display: none !important;
+  }
+}
+
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  .mobile {
+	display: none !important;
+  }
+}

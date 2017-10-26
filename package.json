@@ -1,0 +1,16 @@
+{
+  "name": "wemakewebsites",
+  "version": "1.0.0",
+  "scripts": {
+	"dev": "gulp"
+  },
+  "dependencies": {
+	"autoprefixer": "^6.4.1",
+	"browser-sync": "^2.14.0",
+	"gulp": "^3.9.1",
+	"gulp-clean-css": "^2.0.9",
+	"gulp-concat": "^2.6.0",
+	"gulp-postcss": "^6.1.1",
+	"gulp-sass": "^2.3.1"
+  }
+}
